@@ -3,4 +3,5 @@
   <%= f.fields_for :ingredients do |ing|%>
     Ingredient Name: <%=ing.text_field :name%>
     Ingredient Quantity:<%=ing.number_field :quantity %>
+  <%end%>
 <% end %>
